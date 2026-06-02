@@ -1,0 +1,14 @@
+# Dépendances Node.js (pour tous les dossiers)
+node_modules/
+dist/
+build/
+.env
+
+# Dossiers spécifiques aux outils
+.expo/
+.idea/
+.vscode/
+
+# Fichiers OS
+.DS_Store
+Thumbs.db
