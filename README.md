@@ -76,31 +76,3 @@ npx expo start
 * **Web :** React.js (Vite), Tailwind CSS, Axios, React Router Dom, Lucide Icons.
 * **Mobile :** React Native (Expo SDK), React Navigation, Axios, Expo Camera, Expo SQLite.
 * **Versionnage :** Git & GitHub.
-
-```
-
----
-
-### Commandes pour l'envoyer sur GitHub
-
-Pour éviter l'erreur de rejet (`[rejected] main -> main`) et s'assurer que Windows ne bloque pas, suis précisément ces étapes dans ton terminal (assure-toi d'être bien connecté à Internet) :
-
-```powershell
-# 1. Reviens bien à la racine de ton projet
-cd C:\PROJET\OmniDoc
-
-# 2. Ajoute le nouveau fichier README.md à Git
-git add README.md
-
-# 3. Crée le commit de sauvegarde
-git commit -m "Docs: Ajout du fichier README.md principal"
-
-# 4. Fusionne proprement les fichiers de GitHub avec ton local (sans ouvrir Vim)
-git pull origin main --no-edit
-
-# 5. Envoie enfin le tout sur ton dépôt GitHub
-git push -u origin main
-
-```
-
-Une fois le `git push` terminé, rafraîchis ta page GitHub sur ton navigateur : ton projet aura une présentation propre et professionnelle avec la liste de ton équipe !
